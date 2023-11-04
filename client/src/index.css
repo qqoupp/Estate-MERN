@@ -2,8 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    /* Use linear-gradient as the background with a fallback color */
-    background: antiquewhite; /* Fallback color */
-    background: linear-gradient(to right, rgb(239, 182, 239), rgb(234, 130, 234)), antiquewhite; /* Gradient */
-}
+

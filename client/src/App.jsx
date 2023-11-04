@@ -9,6 +9,7 @@ import Header from "./components/Header"
 export default function App() {
   return <BrowserRouter>
           <Header/>
+          <div className="min-h-screen bg-gradient-to-br from-slate-300">
           <Routes>
             <Route path="/" element ={<Home/>}></Route>
             <Route path="/about" element ={<About/>}></Route>
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="/sign-up" element ={<SignUp/>}></Route>
             <Route path="/profile" element ={<Profile/>}></Route>
           </Routes>
+          </div>
         </BrowserRouter>
   
 }
