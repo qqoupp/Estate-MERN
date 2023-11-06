@@ -9,7 +9,7 @@ import Header from "./components/Header"
 export default function App() {
   return <BrowserRouter>
           <Header/>
-          <div className="min-h-screen bg-gradient-to-br from-slate-300">
+          <div className="min-h-screen bg-gradient-to-br from-emerald-50">
           <Routes>
             <Route path="/" element ={<Home/>}></Route>
             <Route path="/about" element ={<About/>}></Route>

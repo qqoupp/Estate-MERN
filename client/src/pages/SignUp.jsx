@@ -49,7 +49,7 @@ import { Link, useNavigate } from 'react-router-dom';
           <input type = "text" placeholder = "username" className = "border p-3 rounded-lg" id='username'onChange = {handleChange}/>
           <input type = "email" placeholder = "emal" className = "border p-3 rounded-lg" id='email'onChange = {handleChange}/>
           <input type = "password" placeholder = "password" className = "border p-3 rounded-lg" id='password'onChange = {handleChange}/>
-          <button  disabled = {loading} className='bg-slate-700 text-white p-3 rounded-lg hover:opacity-90 disabled:opacity-80'>
+          <button  disabled = {loading} className='bg-emerald-500 text-white p-3 rounded-lg hover:opacity-90 disabled:opacity-80'>
           {loading ? 'Loading...':'Sign Up'}
           </button>
         </form>
